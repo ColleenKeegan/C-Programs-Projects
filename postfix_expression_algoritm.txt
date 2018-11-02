@@ -1,0 +1,18 @@
+Algorithm for evaluating a postfix string
+-----------------------------------------
+
+initailise(stack)
+
+while not end of postfix string:
+	next_token = get the next token from the postfix string
+	if next_token is an operand then
+		push(stack, next_token)
+	else if next_token is an operator then
+		opnd1 = pop(stack)
+		opnd2 = pop(stack)
+		result = operate(opnd1, opnd2, next_token)
+		push(stack result)
+	end if
+end while
+
+print pop(stack)
