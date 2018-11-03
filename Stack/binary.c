@@ -118,4 +118,4 @@ int main(){
 	printBinary(18);
 
  	return 0;
- }
+ } 
