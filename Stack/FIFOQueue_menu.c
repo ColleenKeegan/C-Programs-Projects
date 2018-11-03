@@ -1,3 +1,8 @@
+/*
+program to implement a Queue.
+Prints out a menu to  the user allowing for both insertion(enqueue)
+and deletion(dequeue) into the queue.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
