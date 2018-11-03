@@ -26,4 +26,4 @@ if error then
 	print "The input expression does not contain well formed brackets"
 else 
 	print "The input expression is well formed"
-end if 
+end if
