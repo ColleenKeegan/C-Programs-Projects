@@ -15,4 +15,4 @@ while not end of postfix string:
 	end if
 end while
 
-print pop(stack)
+print pop(stack) 
