@@ -1,0 +1,37 @@
+Algorithm for FIFO Queue usinf a 1-D array
+-------------------------------------------
+Initial declarations:
+--------------------
+
+	REAR: an integer variable tomhold the index of the rear end of the Q, that is 
+		  the index of the next insertion element.
+
+	FRONT: an integer variable to hold the index of the fron tend of the Q, that is
+		   the index of the next elemnt to be deleted.
+
+	ITEM[SIZE]: a 1-D array being used to hold all the Q elements. SIZE is the size of the Q, 
+				that is the number of elements in the array. 
+
+	Initially:
+				REAR = 0
+				FRONT = 0
+
+
+OPERATION ENQUEUE(V):
+	IF REAR == SIZE THEN
+		PRINT "QUEUE OVERFLOW"
+		EXIT ENQUEUE
+	END IF
+	ITEM[REAR] = V
+	REAR = REAR + 1
+END ENQUEUE
+
+OPERATION DEQUEUE:
+	IF REAR == FRONT THEN	
+		PRINT "QUEUE UNDERFLOW"
+		EXIT DEQUEUE
+	END IF
+	V = ITEM[FRONT]
+	FRONT = FRONT + 1
+	RETURN V
+END DEQUEUE
