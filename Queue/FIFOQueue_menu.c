@@ -1,3 +1,8 @@
+/*
+Jason van Raamsdonk
+22/10/2018
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
