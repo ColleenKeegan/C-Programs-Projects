@@ -1,4 +1,4 @@
-Algorithm for FIFO Queue usinf a 1-D array
+Algorithm for FIFO Queue usinf a 1-D array - Jason van Raamsdonk
 -------------------------------------------
 Initial declarations:
 --------------------
