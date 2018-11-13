@@ -1,3 +1,7 @@
+/*
+Jason van Raamsdonk
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
