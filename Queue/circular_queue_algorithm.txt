@@ -1,4 +1,4 @@
-Algorithm for enqueue and dequeue operations for a Circular Queue
+Algorithm for enqueue and dequeue operations for a Circular Queue - Jason van Raamsdonk
 -----------------------------------------------------------------
 Initially :
 
