@@ -1,4 +1,5 @@
 /*
+-- Jason van Raamsdonk --
 Modified Dynamic Stack
 Each time overflow takes place, size of stack will double
 With decimal to binary function
